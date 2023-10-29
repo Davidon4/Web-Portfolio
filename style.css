@@ -310,6 +310,12 @@ a:hover {
     border-color: rgb(163, 163, 163);
     text-align: center;
   }
+
+  .details-title {
+    font-size: 1.5rem;
+    text-align: center;
+    color: white
+  }
   
   .section-container {
     gap: 4rem;
@@ -321,3 +327,90 @@ a:hover {
     width: 400px;
     margin: auto 0;
   }
+
+  /* EXPERIENCE SECTION */
+
+#experience {
+    position: relative;
+  }
+  
+  .experience-sub-title {
+    color: rgb(85, 85, 85);
+    font-weight: 600;
+    font-size: 1.75rem;
+    margin-bottom: 2rem;
+  }
+  
+  .experience-details-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .article-container {
+    display: flex;
+    text-align: initial;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 2.5rem;
+    justify-content: space-around;
+    /* background: rgb(53, 53, 53); */
+  }
+  
+  article {
+    width: 10rem;
+    gap: 0.5rem;
+    align-items: center;
+  }
+  
+  article .icon {
+    cursor: default;
+  }
+
+  .experience-title {
+    font-size: 1.2rem;
+    color: white;
+    margin: 0;
+  }
+
+  /* PROJECTS SECTION */
+
+#projects {
+  position: relative;
+}
+
+/* .project-container {
+  display: flex;
+  text-align: initial;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 2.5rem;
+  /* justify-content: space-around; */
+  /* background: rgb(53, 53, 53); */
+
+.color-container {
+  border-color: rgb(163, 163, 163);
+  background: rgb(53, 53, 53);
+}
+
+.project-img {
+  border-radius: 2rem;
+  width: 90%;
+  height: 90%;
+}
+
+.project-title {
+  margin: 0.6rem;
+  color: white;
+}
+
+.project-btn {
+  color: black;
+  border-color: rgb(163, 163, 163);
+}
+
+.google-btn {
+  width: 30%;
+  height: 50%;
+  cursor: pointer;
+}
